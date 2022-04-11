@@ -13,3 +13,6 @@ opkg install \
   luci-app-ttyd \
   nano \
   mc \
+echo "Packages are installed"
+sleep 2
+block detect >> /etc/config/fstab

@@ -12,18 +12,21 @@ opkg install \
   fdisk \
   luci-app-ttyd \
   nano \
-  mc \
+  mc 
+sleep 2
+opkg update
+opkg install \
   lumimqtt \
   mpd-full
-  node-zigbee2mqtt \
-  mosquitto \
   git-http \
   mpc \
   mpg123 \
   janus==1.0.0 \
   aioblescan==0.2.12 \
   hatasmota==0.3.1 \
-  wled==0.13.0 
+  wled==0.13.0 \
+  mosquitto \
+  node-zigbee2mqtt 
   
 echo "Packages are installed"
 sleep 2

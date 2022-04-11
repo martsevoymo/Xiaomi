@@ -15,7 +15,6 @@ opkg install \
   mc \
   lumimqtt \
   mpd-full
-  mpg123 \
   node-zigbee2mqtt \
   mosquitto \
   git-http \

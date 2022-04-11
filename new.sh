@@ -19,6 +19,7 @@ opkg install \
   mosquitto \
   git-http \
   mpc \
+  mpg123 \
   janus==1.0.0 \
   aioblescan==0.2.12 \
   hatasmota==0.3.1 \

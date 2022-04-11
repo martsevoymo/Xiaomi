@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+echo "Install"
+sleep 2
+opkg update
+opkg install \
+  node-red \
+  node-red-contrib-home-assistant-websocket \
+  node-red-contrib-tasmota \
+  node-red-contrib-zigbee2mqtt \
+sleep 10
+reboot
